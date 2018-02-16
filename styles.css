@@ -1,0 +1,17 @@
+.navigation_logo {
+    height: auto;
+    width: 6%;
+}
+
+.navigation_link {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+.navigation_links {
+    float: right;
+}
