@@ -31,37 +31,44 @@ body {
 }
 
 .block2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
     padding-left: 100px;
     padding-right: 100px;
 }
 
+
 .block2_img {
-    width: 402px;
-    height: auto;
-    padding-top: 9px;
+    width: 48%;
+    z-index: 1;
+}
+
+.block2_img img {
+    width: 160%;
 }
 
 .block2_content {
-    float: right;
+    /*float: right;*/
     text-align: right;
+    line-height: 0;
+    margin-left: 89px;
 }
 
 .block2_content-line1 {
-    font-size: 47px;
-    font-weight: bold;
-    margin-bottom: -74px;
+    font-size: 69px;
+    font-weight: bolder;
 }
 
 .block2_content-line2 {
-    font-size: 68px;
+    font-size: 78px;
     font-weight: bolder;
     color: turquoise;
 }
 
 .block2_content-line3 {
-    font-size: 47px;
-    font-weight: bold;
-    margin-top: -73px;
+    font-size: 69px;
+    font-weight: bolder;
 }
 
 .block2_content-line4 {
@@ -71,20 +78,87 @@ body {
     background-color: black;
     padding: 12px;
     padding-left: 149px;
-    margin-top: -37px;
 }
 
-.block2_aside1 {
+.block2_buttons {
+    margin-top: 100px;
+}
+
+.block2_button1 {
     font-size: 41px;
     color: white;
     background-color: black;
-    padding: 0px 38px 0px 38px;
+    padding: 22px 50px 22px 50px;
     margin-right: -3px;
+    line-height: 97px;
 }
 
-.block2_aside2 {
+.block2_button2 {
     font-size: 41px;
     color: black;
     background-color: turquoise;
-    padding: 0px 38px 0px 38px;
+    padding: 22px 50px 22px 50px;
+}
+
+.block3 {
+    background-color: black;
+    padding-left: 182px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 182px;
+    margin-top: -3px;
+}
+
+.block3_content1 {
+    flex: 1;
+    margin-top: 18px;
+}
+
+.block3_content1-line1 {
+    font-size: 69px;
+    font-weight: bolder;
+    color: white;
+    line-height: 0;
+}
+
+.block3_content1-line2 {
+    font-size: 69px;
+    font-weight: bolder;
+    color: turquoise;
+    line-height: 0;
+}
+
+.block3_content1-line3,
+.block3_content1-line4,
+.block3_content1-line5 {
+    color: white;
+    font-size: 20px;
+    margin-right: 55px;
+}
+
+.block3_content2 {
+    flex: 0.6;
+    border: solid 2px turquoise;
+    margin: 60px 0 60px 0;
+    padding: 44px 32px 44px 32px;
+}
+
+.block3_content2-box1-title,
+.block3_content2-box2-title,
+.block3_content2-box3-title {
+    color: turquoise;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.block3_content2-box1-content,
+.block3_content2-box2-content,
+.block3_content2-box3-content {
+    color: white;
+}
+
+.separator {
+    border-color: turquoise;
+    margin: 30px 0;
 }
