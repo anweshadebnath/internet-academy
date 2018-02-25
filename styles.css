@@ -162,3 +162,44 @@ body {
     border-color: turquoise;
     margin: 30px 0;
 }
+
+.block4 {
+    padding-left: 182px;
+    padding-right: 182px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+.block4_content1 {
+    margin-top: 76px;
+    flex: 0.6;
+}
+
+.block4_content2 {
+    flex: 0.6;
+}
+
+.block4_content1-line1 {
+    font-size: 69px;
+    font-weight: bolder;
+    color: black;
+}
+
+.block4_content1-line2 {
+    font-size: 69px;
+    font-weight: bolder;
+    color: turquoise;
+}
+
+.block4_content1-menu-item {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.block4_content1-menu-item:hover {
+    color: turquoise;
+}
+.block4_content2-imgbox{
+
+}
