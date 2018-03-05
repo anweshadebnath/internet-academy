@@ -1,6 +1,7 @@
 .navigation_logo {
     height: auto;
-    width: 10%;
+    width: 12%;
+    padding-left: 80px;
 }
 
 .navigation_link {
@@ -46,6 +47,7 @@ body {
 
 .block2_img img {
     width: 160%;
+    margin-left: -196px;
 }
 
 .block2_content {
@@ -168,6 +170,7 @@ body {
     padding-right: 110px;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 54px;
     background-color: lightgrey;
 }
 
@@ -209,9 +212,7 @@ body {
     color: turquoise;
 }
 
-.block4_content2-imgbox {
-    /* width: 100%; */
-}
+.block4_content2-imgbox {}
 
 .block4_content2-imgbox img {
     width: 100%;
@@ -278,6 +279,8 @@ body {
     background-color: black;
     padding-left: 189px;
     padding-right: 130px;
+    position: relative;
+    padding-top: 46px;
 }
 
 .block5_line1 {
@@ -290,16 +293,82 @@ body {
     color: turquoise;
     font-size: 65px;
     font-weight: bolder;
+    padding-bottom: 36px;
 }
 
 .block5_img-box {
     display: flex;
 }
 
+.block5_img-box-left {
+    background-color: turquoise;
+}
+
 .block5_img-box-left img {
     width: 100%;
+    opacity: 0.5;
 }
 
 .block5_img-box-right img {
     width: 100%;
+}
+
+
+.block5_aside {
+    display: flex;
+    position: absolute;
+    right: 125px;
+    top: 122px;
+}
+
+
+.block5_aside1 {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+}
+
+.block5_aside1--turquoise {
+    background-color: turquoise;
+}
+
+.block6 {
+    background-color: white;
+    padding-left: 189px;
+    padding-right: 130px;
+    position: relative;
+    padding-top: 46px;
+}
+
+.block6_line1 {
+    color: black;
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.block6_line2 {
+    color: turquoise;
+    font-size: 65px;
+    font-weight: bolder;
+    padding-bottom: 36px;
+}
+
+.block6_aside {
+    display: flex;
+    position: absolute;
+    right: 125px;
+    top: 122px;
+}
+
+
+.block6_aside1 {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+}
+
+.block6_aside1--turquoise {
+    background-color: turquoise;
 }
