@@ -53,7 +53,7 @@ body {
 
 .block2_content {
     text-align: right;
-    line-height: 0;
+    line-height: 14px;
     margin-left: 89px;
 }
 
@@ -259,7 +259,8 @@ body {
     font-size: 26px;
     font-weight: bolder;
 
-    - r: 24px;
+    -
+    r: 24px;
     position: relative;
     padding: 20px;
 }
@@ -411,19 +412,21 @@ body {
     text-align: center;
 }
 
-/*.block6_icons {
+.block6_icons {
     display: flex;
-    width: 2%;
+    width: 118px;
+    margin: 0 auto;
 }
 
 .block6_icon {
     flex: 1;
+    margin: 5px;
 }
 
 .block6_icon img {
     width: 100%;
 }
-*/
+
 .block7 {
     background-color: #1e1e1e;
     padding-left: 189px;
@@ -455,6 +458,10 @@ body {
     font-size: 18px;
     font-weight: bolder;
     margin-top: 35px;
+}
+
+.block7_left-title img {
+    width: 20px;
 }
 
 .block7_left-content {
@@ -520,6 +527,7 @@ body {
     padding\: 20px 0px;
     padding: 20px 0 20px 189px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -531,7 +539,7 @@ body {
 }
 
 .footer_icons {
-    width: 13%;
+    width: 160px;
     display: flex;
     align-items: center;
     margin-right: 126px;
