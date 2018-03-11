@@ -411,6 +411,19 @@ body {
     text-align: center;
 }
 
+/*.block6_icons {
+    display: flex;
+    width: 2%;
+}
+
+.block6_icon {
+    flex: 1;
+}
+
+.block6_icon img {
+    width: 100%;
+}
+*/
 .block7 {
     background-color: #1e1e1e;
     padding-left: 189px;
@@ -504,13 +517,31 @@ body {
 
 .footer {
     background-color: #171717;
-    padding-left: 189px;
-    padding-top: 20px;
+    padding\: 20px 0px;
+    padding: 20px 0 20px 189px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.footer_left {}
 
 .footer_text {
     color: white;
     font-size: 14px;
 }
 
-.footer_icons {}
+.footer_icons {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    margin-right: 126px;
+}
+
+.footer__icon {
+    flex: 1;
+    margin-left: 7%;
+}
+
+.footer__icon img {
+    width: 100%;
+}
