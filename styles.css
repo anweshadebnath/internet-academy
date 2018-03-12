@@ -46,12 +46,7 @@ body {
     width: 48%;
 }
 
-.block2_img img {
-    width: 160%;
-    margin-left: -196px;
-    position: relative;
-    left: 0px;
-}
+.block2_img img {}
 
 .block2_content {
     text-align: right;
@@ -260,9 +255,6 @@ body {
     margin: 13px;
     font-size: 26px;
     font-weight: bolder;
-
-    -
-    r: 24px;
     position: relative;
     padding: 20px;
 }
@@ -526,7 +518,6 @@ body {
 
 .footer {
     background-color: #171717;
-    padding\: 20px 0px;
     padding: 20px 0 20px 189px;
     display: flex;
     flex-wrap: wrap;
