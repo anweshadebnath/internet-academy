@@ -28,22 +28,23 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    /*font-family: 'Montserrat', sans-serif;*/
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .block2 {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+    justify-content: space-between;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 110px;
     margin-top: 5px;
     background-color: #f7f7f7;
 }
 
 
 .block2_img {
-    width: 48%;
+    width: 46%;
 }
 
 .block2_img img {}
@@ -51,7 +52,6 @@ body {
 .block2_content {
     text-align: right;
     line-height: 14px;
-    margin-left: 89px;
 }
 
 .block2_content-line1 {
@@ -71,12 +71,11 @@ body {
 }
 
 .block2_content-line4 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #1cf0d5;
     background-color: #1e1e1e;
     padding: 12px;
-    padding-left: 150px;
 }
 
 .block2_buttons {
@@ -181,7 +180,6 @@ body {
     flex: 1;
     background-color: #1e1e1e;
     color: white;
-    position: relative;
 }
 
 .block4_content1-line1 {
@@ -212,7 +210,7 @@ body {
 .block4_content2-imgbox {}
 
 .block4_content2-imgbox img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .block4_content2-text {
@@ -230,12 +228,11 @@ body {
 .block4_content2-aside {
     background-color: #1cf0d5;
     display: inline;
-    right: 0;
-    position: absolute;
-    bottom: 0;
     padding: 10px;
     font-size: 22px;
     font-weight: bolder;
+    float: right;
+    clear: both;
 }
 
 .block4_content3 {
@@ -293,21 +290,39 @@ body {
 
 .block5_img-box {
     display: flex;
-    align-items: flex-end;
-    margin-bottom: -4px;
 }
 
 .block5_img-box-left {
-    background-color: #1cf0d5;
+    background-image: url(images/pro-we-left.jpeg);
+    background-size: cover;
+    width: 34%;
+    height: 385px;
+    position: relative;
 }
 
-.block5_img-box-left img {
+.block5_img-box-left-overlay {
     width: 100%;
-    opacity: 0.5;
+    height: 100%;
+    background-color: turquoise;
+    opacity: 0.4;
 }
 
-.block5_img-box-right img {
-    width: 100%;
+.block5_img-box-left-txt {
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    margin-top: 40%;
+}
+
+.block5_img-box-right {
+	background-image: url(images/pro-we-done.jpeg);
+    width: 66%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
