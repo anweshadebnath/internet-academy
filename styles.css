@@ -49,6 +49,8 @@ body {
 .block2_img img {
     width: 160%;
     margin-left: -196px;
+    position: relative;
+    left: 0px;
 }
 
 .block2_content {
@@ -394,7 +396,7 @@ body {
 
 .block6_rect-box1 {
     background-color: #1e1e1e;
-    height: 100px;
+    height: 106px;
     margin-top: -4px;
 }
 
@@ -455,7 +457,7 @@ body {
 
 .block7_left-title {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bolder;
     margin-top: 35px;
 }
@@ -466,7 +468,7 @@ body {
 
 .block7_left-content {
     color: white;
-    font-size: 15px;
+    font-size: 19px;
 }
 
 .block7_right {
