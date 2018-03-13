@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 .navigation_logo {
     height: auto;
     width: 12%;
@@ -5,16 +9,16 @@
 }
 
 .navigation_link {
-
     text-decoration: none;
     padding-right: 11px;
     padding-left: 11px;
     color: black;
+    font-weight: bolder;
 }
 
 .navigation_links {
     float: right;
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: bold;
     padding-top: 40px;
 }
@@ -55,23 +59,23 @@ body {
 }
 
 .block2_content-line1 {
-    font-size: 69px;
+    font-size: 4.3rem;
     font-weight: bolder;
 }
 
 .block2_content-line2 {
-    font-size: 78px;
+    font-size: 5.8rem;
     font-weight: bolder;
     color: #1cf0d5;
 }
 
 .block2_content-line3 {
-    font-size: 69px;
+    font-size: 4.3rem;
     font-weight: bolder;
 }
 
 .block2_content-line4 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: #1cf0d5;
     background-color: #1e1e1e;
@@ -83,7 +87,7 @@ body {
 }
 
 .block2_button1 {
-    font-size: 41px;
+    font-size: 2.5rem;
     color: white;
     background-color: #1e1e1e;
     padding: 22px 50px 22px 50px;
@@ -92,7 +96,7 @@ body {
 }
 
 .block2_button2 {
-    font-size: 41px;
+    font-size: 2.5rem;
     color: black;
     background-color: #1cf0d5;
     padding: 22px 50px 22px 50px;
@@ -113,14 +117,14 @@ body {
 }
 
 .block3_content1-line1 {
-    font-size: 69px;
+    font-size: 4.3rem;
     font-weight: bolder;
     color: white;
     line-height: 0;
 }
 
 .block3_content1-line2 {
-    font-size: 69px;
+    font-size: 4.3rem;
     font-weight: bolder;
     color: #1cf0d5;
     line-height: 0;
@@ -130,7 +134,7 @@ body {
 .block3_content1-line4,
 .block3_content1-line5 {
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-right: 55px;
 }
 
@@ -145,7 +149,7 @@ body {
 .block3_content2-box2-title,
 .block3_content2-box3-title {
     color: #1cf0d5;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bolder;
     margin-bottom: 10px;
 }
@@ -183,14 +187,14 @@ body {
 }
 
 .block4_content1-line1 {
-    font-size: 69px;
+    font-size: 4.3rem;
     font-weight: bolder;
     color: black;
     line-height: 1;
 }
 
 .block4_content1-line2 {
-    font-size: 69px;
+    font-size: 4.3rem;
     font-weight: bolder;
     color: #1cf0d5;
     margin-bottom: 38px;
@@ -198,7 +202,7 @@ body {
 }
 
 .block4_content1-menu-item {
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: bolder;
     padding: 10px;
 }
@@ -210,7 +214,7 @@ body {
 .block4_content2-imgbox {}
 
 .block4_content2-imgbox img {
-    /* width: 100%; */
+     width: 100%; 
 }
 
 .block4_content2-text {
@@ -218,7 +222,7 @@ body {
 }
 
 .block4_content2-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bolder;
     padding-left: 20px;
     padding-top: 29px;
@@ -229,7 +233,7 @@ body {
     background-color: #1cf0d5;
     display: inline;
     padding: 10px;
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: bolder;
     float: right;
     clear: both;
@@ -250,7 +254,7 @@ body {
     color: white;
     background-color: #1e1e1e;
     margin: 13px;
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: bolder;
     position: relative;
     padding: 20px;
@@ -258,7 +262,7 @@ body {
 
 .block4_content3-num {
     color: #1cf0d5;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: bold;
     position: absolute;
     z-index: -1;
@@ -277,13 +281,13 @@ body {
 
 .block5_line1 {
     color: white;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .block5_line2 {
     color: #1cf0d5;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: bolder;
     padding-bottom: 36px;
 }
@@ -303,12 +307,12 @@ body {
 .block5_img-box-left-overlay {
     width: 100%;
     height: 100%;
-    background-color: turquoise;
+    background-color: #1cf0d5;
     opacity: 0.4;
 }
 
 .block5_img-box-left-txt {
-    font-size: 19px;
+    font-size: 1.2rem;
     font-weight: bolder;
     color: white;
     position: absolute;
@@ -319,7 +323,7 @@ body {
 }
 
 .block5_img-box-right {
-	background-image: url(images/pro-we-done.jpeg);
+    background-image: url(images/pro-we-done.jpeg);
     width: 66%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,13 +360,13 @@ body {
 
 .block6_line1 {
     color: black;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .block6_line2 {
     color: #1cf0d5;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: bolder;
     padding-bottom: 36px;
 }
@@ -409,7 +413,7 @@ body {
 
 .block6_rect-box1-name {
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 18px 38px 0 38px;
     text-align: center;
@@ -417,7 +421,7 @@ body {
 
 .block6_rect-box1-designation {
     color: white;
-    font-size: 17px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -452,19 +456,19 @@ body {
 
 .block7_left-line1 {
     color: white;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .block7_left-line2 {
     color: #1cf0d5;
-    font-size: 63px;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .block7_left-title {
     color: white;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin-top: 35px;
 }
@@ -475,7 +479,7 @@ body {
 
 .block7_left-content {
     color: white;
-    font-size: 19px;
+    font-size: 1.2rem;
 }
 
 .block7_right {
@@ -488,7 +492,7 @@ body {
 
 .block7_right-line1 {
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
@@ -497,7 +501,7 @@ body {
     width: 100%;
     height: 31px;
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 0.75rem;
     border: 0px;
 }
 
@@ -510,7 +514,7 @@ body {
     display: block;
     width: 99%;
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 0.75rem;
     border: 0px;
 }
 
@@ -522,7 +526,7 @@ body {
 .block7_submit {
     background-color: #1f1f1f;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bolder;
     margin: 10px 0;
     width: 100%;
@@ -543,7 +547,7 @@ body {
 
 .footer_text {
     color: white;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .footer_icons {
@@ -560,4 +564,40 @@ body {
 
 .footer__icon img {
     width: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
 }
