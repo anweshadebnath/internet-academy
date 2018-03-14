@@ -5,7 +5,7 @@ html {
 .navigation_logo {
     height: auto;
     width: 12%;
-    padding-left: 80px;
+    padding-left: 10%;
 }
 
 .navigation_link {
@@ -25,8 +25,8 @@ html {
 
 .navigation {
     border-bottom: 1px solid lightgrey;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 12%;
+    padding-right: 12%;
     box-shadow: 0px 9px 10px -10px;
 }
 
@@ -40,8 +40,8 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 110px;
+    padding-left: 12%;
+    padding-right: 12%;
     margin-top: 5px;
     background-color: #f7f7f7;
 }
@@ -104,10 +104,10 @@ body {
 
 .block3 {
     background-color: #1e1e1e;
-    padding-left: 182px;
+    padding-left: 12%;
     display: flex;
     flex-wrap: wrap;
-    padding-right: 110px;
+    padding-right: 12%;
     margin-top: -3px;
 }
 
@@ -166,8 +166,8 @@ body {
 }
 
 .block4 {
-    padding-left: 182px;
-    padding-right: 110px;
+    padding-left: 12%;
+    padding-right: 12%;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 54px;
@@ -184,6 +184,9 @@ body {
     flex: 1;
     background-color: #1e1e1e;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .block4_content1-line1 {
@@ -214,7 +217,7 @@ body {
 .block4_content2-imgbox {}
 
 .block4_content2-imgbox img {
-     width: 100%; 
+    width: 100%;
 }
 
 .block4_content2-text {
@@ -230,13 +233,17 @@ body {
 }
 
 .block4_content2-aside {
-    background-color: #1cf0d5;
-    display: inline;
-    padding: 10px;
+    /*display: inline;*/
     font-size: 1.4rem;
     font-weight: bolder;
+    /*float: right;*/
+    /*clear: both;*/
+}
+
+.block4_content2-aside-txt {
+    background-color: #1cf0d5;
+    padding: 10px;
     float: right;
-    clear: both;
 }
 
 .block4_content3 {
@@ -273,8 +280,8 @@ body {
 
 .block5 {
     background-color: #1e1e1e;
-    padding-left: 189px;
-    padding-right: 130px;
+    padding-left: 12%;
+    padding-right: 12%;
     position: relative;
     padding-top: 46px;
 }
@@ -351,8 +358,8 @@ body {
 
 .block6 {
     background-color: #f7f7f7;
-    padding-left: 189px;
-    padding-right: 130px;
+    padding-left: 12%;
+    padding-right: 12%;
     position: relative;
     padding-top: 46px;
     padding-bottom: 50px;
@@ -442,7 +449,7 @@ body {
 
 .block7 {
     background-color: #1e1e1e;
-    padding-left: 189px;
+    padding-left: 12%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -485,7 +492,6 @@ body {
 .block7_right {
     height: 307px;
     background-color: #1cf0d5;
-    margin-right: 126px;
     padding: 3%;
     width: 40%;
 }
@@ -537,7 +543,7 @@ body {
 
 .footer {
     background-color: #171717;
-    padding: 20px 0 20px 189px;
+    padding: 1% 12% 1% 12%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -551,10 +557,9 @@ body {
 }
 
 .footer_icons {
-    width: 160px;
+    width: 25%;
     display: flex;
     align-items: center;
-    margin-right: 126px;
 }
 
 .footer__icon {
@@ -567,37 +572,65 @@ body {
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    html {
-        font-size: 10px;
-    }
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
-/* Small devices (portrait tablets and large phones, 768px and down) */
-@media only screen and (max-width: 768px) {
-    html {
-        font-size: 13px;
-    }
-}
-
-/* Medium devices (landscape tablets, 992px and down) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 1200px) {
     html {
         font-size: 16px;
     }
 }
 
+
 /* Large devices (laptops/desktops, 1200px and down) */
+
 @media only screen and (max-width: 1200px) {
     html {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+
+/* Medium devices (landscape tablets, 992px and down) */
+
+@media only screen and (max-width: 992px) {
     html {
-        font-size: 20px;
+        font-size: 14px;
     }
 }
+
+
+/* Small devices (portrait tablets and large phones, 768px and down) */
+
+@media only screen and (max-width: 768px) {
+    .block3 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .block4 {
+        text-align: center;
+    }
+    .block4_content3-box {
+        margin: 10%;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .footer_icons {
+        width: 40%;
+    }
+    .block2_img img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Extra Extra small devices (phones, 320px and down) */
+
+@media only screen and (max-width: 320px) {}
