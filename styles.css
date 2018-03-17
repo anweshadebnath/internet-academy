@@ -16,6 +16,11 @@ html {
     font-weight: bolder;
 }
 
+.navigation_link:hover {
+    border-bottom: solid 3px darkgrey;
+    transition: border-bottom 0.5s;
+}
+
 .navigation_links {
     float: right;
     font-size: 0.8rem;
@@ -37,7 +42,6 @@ body {
 
 .block2 {
     display: flex;
-    /*flex-wrap: wrap;*/
     align-items: flex-end;
     justify-content: space-between;
     padding-left: 12%;
@@ -49,7 +53,6 @@ body {
 
 .block2_img {
     width: 46%;
-    /*z-index: 1;*/
 }
 
 .block2_img img {}
@@ -109,7 +112,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-right: 12%;
-    /*margin-top: -3px;*/
     position: relative;
     top: -4px;
 }
@@ -238,17 +240,15 @@ body {
 }
 
 .block4_content2-aside {
-    /*display: inline;*/
     font-size: 1.4rem;
     font-weight: bolder;
-    /*float: right;*/
-    /*clear: both;*/
 }
 
 .block4_content2-aside-txt {
     background-color: #1cf0d5;
     padding: 10px;
     float: right;
+    cursor: pointer;
 }
 
 .block4_content3 {
@@ -257,12 +257,10 @@ body {
     flex-basis: 100%;
     z-index: 1;
     margin-top: 10%;
-    /*flex-wrap: wrap;*/
 }
 
 
 .block4_content3-box {
-    /*flex: 1;*/
     color: white;
     background-color: #1e1e1e;
     margin: 13px;
@@ -271,6 +269,11 @@ body {
     position: relative;
     padding: 20px;
     width: 30%
+}
+
+.block4_content3-box:hover .block4_content3-num {
+    font-size: 4.75rem;
+    transition: font-size 0.5s;
 }
 
 .block4_content3-num {
@@ -449,6 +452,12 @@ body {
     margin: 5px;
 }
 
+.block6_icon:hover {
+    transition: background-color 1s;
+    background-color: turquoise;
+    border-radius: 15%;
+}
+
 .block6_icon img {
     width: 100%;
 }
@@ -545,6 +554,11 @@ body {
     padding: 11px 0;
     font-family: 'Lato', sans-serif;
     border: 0px;
+    opacity: 0.6;
+}
+
+.block7_submit:hover {
+    opacity: 1;
 }
 
 .footer {
@@ -573,15 +587,15 @@ body {
     margin-left: 7%;
 }
 
+.footer__icon:hover {
+    transition: background-color 1s;
+    background-color: turquoise;
+    border-radius: 25%;
+}
+
 .footer__icon img {
     width: 100%;
 }
-
-
-
-
-
-
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -591,12 +605,6 @@ body {
         font-size: 16px;
     }
 }
-
-
-
-
-
-
 
 
 /* Large devices (laptops/desktops, 1200px and down) */
@@ -609,12 +617,6 @@ body {
         padding-left: 3%;
     }
 }
-
-
-
-
-
-
 
 
 /* Medium devices (landscape tablets, 992px and down) */
@@ -630,18 +632,19 @@ body {
     .block2_img img {
         width: 121%;
     }
-    .block3 {
-        position: relative;
-        top: -6px;
+    
+    .block6 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .block6_line1,
+    .block6_line2 {
+        text-align: center;
+    }
+    .block6_aside {
+        display: none;
     }
 }
-
-
-
-
-
-
-
 
 /* Small devices (portrait tablets and large phones, 768px and down) */
 
@@ -690,20 +693,40 @@ body {
     .block4_content3-box {
         margin: 1%;
     }
+
+
+    .block6_image-box {
+        display: block;
+    }
+    .block6_img-box-left {
+        text-align: center;
+        width: 51%;
+        margin: auto;
+        margin-bottom: 12%;
+    }
+    .block7 {
+        display: block;
+        padding-left: 0px;
+        text-align: -webkit-center;
+    }
+
+    .block7_right {
+        width: 60%;
+    }
+    .block7_left {
+        width: 100%;
+        margin-top: 0;
+    }
+    .footer {
+        padding-right: 18%;
+    }
 }
-
-
-
-
-
 
 
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    .footer_icons {
-        width: 40%;
-    }
+
 
     .block2_img {
         display: none;
@@ -725,17 +748,30 @@ body {
         align-items: center;
     }
     .block4_content3-num {
-        top: -45px;
+        top: 0px;
+        left: -95px;
+    }
+    .block4_content3-box:nth-child(3)>.block4_content3-num {
+        left: -45px;
     }
     .block5_aside {
         display: none;
     }
+    .block5_img-box-left-txt {
+        font-size: 1rem;
+    }
+    .block7_left-line1,
+    .block7_left-line2 {
+        display: inline;
+        font-size: 3rem;
+    }
+    .block7_left-line2:before {
+        content: "\00a0 ";
+    }
+    .footer_icons {
+        width: 30%;
+    }
 }
-
-
-
-
-
 
 
 /* Extra Extra small devices (phones, 414px and down) */
@@ -759,6 +795,16 @@ body {
     }
 
     .block4_content3-num {
-        top: -33px;
+        left: -65px;
+    }
+    .block4_content3-box:nth-child(3)>.block4_content3-num {
+        left: -30px;
+    }
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer_icons {
+        width: 45%;
     }
 }
