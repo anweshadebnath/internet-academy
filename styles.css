@@ -19,6 +19,7 @@ html {
 .navigation_link:hover {
     border-bottom: solid 3px darkgrey;
     transition: border-bottom 0.5s;
+    padding-bottom: 5px;
 }
 
 .navigation_links {
@@ -33,6 +34,26 @@ html {
     padding-left: 12%;
     padding-right: 12%;
     box-shadow: 0px 9px 10px -10px;
+}
+
+.navigation_hamburger {
+    display: none;
+}
+
+
+.navigation_hamburger-links {
+    position: absolute;
+    right: 10%;
+    background-color: white;
+    padding: 1%;
+    display: none;
+}
+
+.navigation_hamburger-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
 }
 
 body {
@@ -632,7 +653,10 @@ body {
     .block2_img img {
         width: 121%;
     }
-    
+    .block2_button1,
+    .block2_button2 {
+        font-size: 3rem;
+    }
     .block6 {
         padding-left: 0px;
         padding-right: 0px;
@@ -646,12 +670,24 @@ body {
     }
 }
 
+
 /* Small devices (portrait tablets and large phones, 768px and down) */
 
 @media only screen and (max-width: 768px) {
 
     .navigation_links {
         display: none;
+    }
+    .navigation_hamburger {
+        float: right;
+        display: block;
+        font-size: 25px;
+        background-color: #1cf0d5;
+        padding: 1%;
+    }
+
+    .navigation_hamburger-toggle {
+        display: block;
     }
 
     .block2 {
@@ -673,6 +709,7 @@ body {
     .block2_content-line4 {
         width: 50%;
     }
+
     .block3 {
         flex-direction: column;
         text-align: center;
@@ -772,7 +809,6 @@ body {
         width: 30%;
     }
 }
-
 
 /* Extra Extra small devices (phones, 414px and down) */
 
